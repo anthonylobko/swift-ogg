@@ -7,7 +7,7 @@ let package = Package(
         .iOS(.v10), .macOS(.v10_15),
     ],
     products: [
-        .library(name: "SwiftOGG", targets: ["SwiftOGG"]),
+        .library(name: "SwiftOGG", type: .static, targets: ["SwiftOGG"]),
     ],
     dependencies: [
         .package(
